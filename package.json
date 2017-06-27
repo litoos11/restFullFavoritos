@@ -1,0 +1,20 @@
+{
+  "name": "api-restfull-favoritos",
+  "version": "1.0.0",
+  "description": "Proyecto de API RESTFULL del curso de NodeJS y Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "litoos11",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.8"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
